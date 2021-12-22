@@ -1,0 +1,2211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>FindRead</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+
+  <div class="firstPage">
+<header>
+    <div class="header" id="header">
+      <div class="header__logo" id="logo">
+	  		<img src="img/undraw_book_lover_mkck.svg" id="logoItem"> 
+      <a href="../index.html" class="logo"><span class="span">Find</span>Read</a>
+	  </div>
+	  
+	  <div id="reg">
+	  <button class="reg" id="login">Log In</button>
+	  <button class="reg" id="register">Register</button>
+    <div class="logAccount none">
+          <i class="fas fa-user"></i>
+          <h1 class="accountName"></h1>    
+    </div>
+
+	  </div>
+	  <div id="clear2"></div>
+	  <div class="header__search">
+         <form class="search__box" id="search-highlight" method="post" action="#">
+            <input class="search__text" type="text" id="term" name="term" placeholder="Search...">
+            <button class="search__button" name="submit" id="submit" >
+                <i class="fa fa-search"></i>
+            </button>     
+          </form>
+    </div>
+     <div class="accountMenu none">
+        <ul>
+          <li class="menuEmail"></li>
+          <li class="admin none">admin panel</li>
+          <li><a href="" class="logOut"><i class="fas fa-sign-out-alt"></i>Log Out</a></li>
+        </ul>
+      </div>
+	</div>
+
+	<div id="top">
+		<div class="element-animation">
+		<h1>Enjoy books anywhere</h1>
+		<h3>through our online library</h3>
+	</div>
+	</div> 
+    <br>
+	<div>
+	    <nav id="verstka">
+		<ul id="verstkanavul">
+		<li><a href="#" class="verstkanava" onclick="slowScroll('#about')">About</a></li>
+	    <li><a href="#" class="verstkanava" onclick="slowScroll('#nav')">Library</a></li>
+	    <li><a href="#" class="verstkanava" onclick="slowScroll('.footer')">Contacts</a></li>
+		</ul>
+		</nav>
+	</div>
+	<div class="controls">
+        <span class="vid-btn active" data-src="img/vid-1.mp4"></span>
+      </div>
+      <center>
+       <div class="video-container">
+        <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+  </center>
+</header>
+
+<br>
+	<div class="element-animation" id="about">
+	    <h1>“A book is a dream that you hold in your hands.
+”</h1>
+      <img src="img/reading1.jpg">
+      <img src="img/reading2.png">
+      <p>This is a website where you can read books online from the comfort of your home. You can download books from our library.</p>
+	</div>
+<br>
+<br>
+	<div id="interest">
+		<div id="intContent">
+		<p style="margin-top: -50px;">Explore & read millions books online for free</p>
+		<button onclick="slowScroll('#nav')">Browse our collection</button>
+		</div>
+		<div id="books">
+			<img src="img/house.jpg" class="intBooks" id="book1">
+			<img src="img/deep.jpg" class="intBooks" id="book2">
+			<img src="img/glass.jpg" class="intBooks" id="book3">
+		</div>
+	</div>
+
+
+	<div id="nav">
+		<nav>
+			<ul>
+				<li><a href="#" onclick="slowScroll('#classicBooks')">Classic Books</a></li>
+				<li><a href="#" onclick="slowScroll('#romance')">Romance</a></li>
+				<li><a href="#" onclick="slowScroll('#kids')">Kids</a></li>
+				
+				
+			</ul>
+		</nav>
+	</div>
+
+
+	<aside>
+	<div class="author">
+		<h4>Authors</h4>
+		<p><a id="authors" onclick="currentSlide(2)">Mark Twain</a></p>
+	    <p><a id="authors" onclick="currentSlide(1)">William Shakespeare</a></p>
+	    <p><a id="authors" onclick="currentSlide(4)">Oscar Wilde</a></p>
+	    <p><a id="authors" onclick="currentSlide(3)">Leo Tolstoy</a></p>
+        <p><a id="authors" onclick="currentSlide(6)">Thomas Hardy</a></p>
+	    <p><a id="authors" onclick="currentSlide(5)">Jane Austen</a></p>
+	</div>
+   </aside>
+
+
+     
+	<div id="classicBooks" class="content">
+		<h2>Classic Boooks</h2>
+
+    <div class="slideshow-containe">
+    	<div class="mySlides fade">
+	    <div id="contentbook">
+		<figure><img src="img/classicBook1.jpg"><figcaption><p><b>William Shakespeare<br>"Romeo and Juliet"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+
+  		 <input type="radio" class="star star-4" name="star" id="star-4">
+  		 <label for="star-4" class="star star-4"></label>
+
+  		 <input type="radio" class="star star-3" name="star" id="star-3">
+  		 <label for="star-3" class="star star-3"></label>
+
+  		 <input type="radio" class="star star-2" name="star" id="star-2">
+  		 <label for="star-2" class="star star-2"></label>
+
+  		 <input type="radio" class="star star-1" name="star" id="star-1">
+  		 <label for="star-1" class="star star-1"></label></form>
+         </div>
+         </div>
+     <br>
+       <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+		
+	</div>
+
+
+
+    <div id="contentbook">
+		<figure><img src="img/classicBook2.jpg"><figcaption><p><b>William Shakespeare<br>"Merchant of Venice"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	</div>	
+	</div>
+    <br> 
+    <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>	
+	</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/classicBook3.jpg"><figcaption><p><b>William Shakespeare<br>"Hamlet"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  	    <input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+    </div>	
+	</div>
+	<br>  
+    <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>	
+	</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/classicBook4.jpg"><figcaption><p><b>William Shakespeare<br>"The Winter's Tale"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  	    <input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  	    <input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySlides fade">
+	<div id="contentbook">
+		<figure><img src="img/MT1.jpg"><figcaption><p><b>Mark Twain<br>"The Innocents Abroad"</b></p>
+		<br>
+        <div class="rat4">
+     	<div class="stars4">
+  		<form action="">
+  		<input type="radio" class="star4 star-5" name="star4" id="star4-5">
+  		<label for="star4-5" class="star4 star-5"></label>
+
+  		<input type="radio" class="star4 star4-4" name="star4" id="star4-4">
+  		<label for="star4-4" class="star4 star4-4"></label>
+
+  	    <input type="radio" class="star4 star4-3" name="star4" id="star4-3">
+  		<label for="star-3" class="star4 star-3"></label>
+
+  		<input type="radio" class="star4 star4-2" name="star4" id="star4-2">
+  		<label for="star4-2" class="star4 star4-2"></label>
+
+  		<input type="radio" class="star4 star4-1" name="star4" id="star4-1">
+  		<label for="star4-1" class="star4 star4-1"></label></form>
+  	</div>
+	</div>
+	<br>  
+    <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>	
+	</div>
+
+    <div id="contentbook">
+		<figure><img src="img/MT2.jpg"><figcaption><p><b>Mark Twain<br>"Roughing It"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	</div>	
+	</div>
+	<br>  
+    <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>	
+	</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/MT3.jpg"><figcaption><p><b>Mark Twain<br>"The Gilded Age"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	</div>
+	</div>
+	<br>  
+    <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/MT4.jpg"><figcaption><p><b>Mark Twain<br>"A Tramp Abroad"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySlides fade">
+	<div id="contentbook">
+		<figure><img src="img/LT1.jpg"><figcaption><p><b>Leo Tolstoy<br>"Anna Karenina"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+ 
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+  	    </div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+		</div>
+
+    <div id="contentbook">
+		<figure><img src="img/LT2.jpg"><figcaption><p><b>Leo Tolstoy<br>"War and Peace"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>
+	    </div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+		</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/LT3.jpg"><figcaption><p><b>Leo Tolstoy<br>"Hamlet"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  	    <input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/LT4.jpg"><figcaption><p><b>Leo Tolstoy<br>"The Winter's Tale"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  	    <label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+        </div>
+
+
+    <div class="mySlides fade">
+	<div id="contentbook">
+		<figure><img src="img/OW1.jpg"><figcaption><p><b>Oscar Wilde<br>"Happy prince"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+  	    </div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>		
+	    </div>
+
+    <div id="contentbook">
+		<figure><img src="img/OW2.jpg"><figcaption><p><b>Oscar Wilde<br>"The picture of Dorian"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>
+	    </div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+		</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/OW3.jpg"><figcaption><p><b>Oscar Wilde<br>"Complete fairy tales"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>
+		</div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/OW4.jpg"><figcaption><p><b>Oscar Wilde<br>"The canterville chost"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+     <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+     </div>
+
+    <div class="mySlides fade">
+	<div id="contentbook">
+		<figure><img src="img/JA1.jpg"><figcaption><p><b>Jane Austen<br>"Northanger Abbey"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+        </div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+		</div>
+
+    <div id="contentbook">
+		<figure><img src="img/JA2.jpg"><figcaption><p><b>Jane Austen<br>"Emma"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+    <div id="contentbook">
+		<figure><img src="img/JA3.jpg"><figcaption><p><b>Jane Austen<br>"Sense and Sensibility"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>
+		</div>
+		<br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+
+<div id="contentbook">
+		<figure><img src="img/JA4.jpg"><figcaption><p><b>Jane Austen<br>"Pride and Prejudice"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+        </div>
+
+
+    <div class="mySlides fade">
+	<div id="contentbook">
+		<figure><img src="img/TH1.jpg"><figcaption><p><b>Thomas Hardy<br>"Half a Londoner"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+  	    </div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+    <div id="contentbook">
+		<figure><img src="img/TH2.jpg"><figcaption><p><b>Thomas Hardy<br>"A Lodicean"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>		
+	    </div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+	    </div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/TH3.jpg"><figcaption><p><b>Thomas Hardy<br>"Jude the Obscure"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure>
+     	</div>
+
+
+    <div id="contentbook">
+		<figure><img src="img/TH4.jpg"><figcaption><p><b>Thomas Hardy<br>"Poems"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/RameoAndJuliet.html">Read here</a></figcaption></figure></div>
+        </div> 
+         <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span>
+       </div>
+       </div>
+       </div>
+
+
+
+     
+	<div class="author">	
+		<h4>Authors</h4>
+		<p><a onclick="currentSlider(1)" id="authors">Jojo Moyes</a></p>
+	    <p><a onclick="currentSlider(2)" id="authors">Khaled Hosseini</a></p>
+	    <p><a onclick="currentSlider(3)" id="authors">Cecelia Ahern</a></p>
+	    <p><a onclick="currentSlider(4)" id="authors">Victor Hugo</a></p>
+        <p><a onclick="currentSlider(5)" id="authors">Nicholas Sparks</a></p>
+	    <p><a onclick="currentSlider(6)" id="authors">John Green</a></p>
+	</div>
+
+	<div id="romance" class="content">
+		<h1>Romance</h1>
+      
+        <div class="sliderhow-container">
+    	<div class="mySlider fader">
+	    <div id="romancecontent">
+		<figure><img src="img/JM1.jpg"><figcaption><p><b>Jojo Moyes<br>"Me before you"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+  	    </div>		
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>	
+	    </div>
+
+    <div id="romancecontent">
+		<figure><img src="img/JM2.jpg"><figcaption><p><b>Jojo Moyes<br>"After you"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+     	</div>
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>		
+	    </div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/JM3.jpg"><figcaption><p><b>Jojo Moyes<br>"Night music"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>
+ 	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/JM4.jpg"><figcaption><p><b>Jojo Moyes<br>"One plus one"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+       </div>
+
+
+    <div class="mySlider fader">
+	<div id="romancecontent">
+		<figure><img src="img/KH1.jpg"><figcaption><p><b>Khaled Hosseini<br>"Sea Player"</b></p>
+		<br>
+        <div class="rat4">
+     	<div class="stars4">
+  		<form action="">
+  		<input type="radio" class="star4 star-5" name="star4" id="star4-5">
+  		<label for="star4-5" class="star4 star-5"></label>
+
+
+  		<input type="radio" class="star4 star4-4" name="star4" id="star4-4">
+  		<label for="star4-4" class="star4 star4-4"></label>
+
+  		<input type="radio" class="star4 star4-3" name="star4" id="star4-3">
+  		<label for="star-3" class="star4 star-3"></label>
+
+  		<input type="radio" class="star4 star4-2" name="star4" id="star4-2">
+  		<label for="star4-2" class="star4 star4-2"></label>
+
+  		<input type="radio" class="star4 star4-1" name="star4" id="star4-1">
+  		<label for="star4-1" class="star4 star4-1"></label></form>
+     	</div>
+		</div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+	    </div>
+
+    <div id="romancecontent">
+		<figure><img src="img/KH2.jpg"><figcaption><p><b>Khaled Hosseini<br>"Mountains Echoed"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>
+    	</div>
+    	<br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+    	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/KH3.jpg"><figcaption><p><b>Khaled Hosseini<br>"The Kite Runner"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+    	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+    	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/KH4.jpg"><figcaption><p><b>Khaled Hosseini<br>"Splendid Suns"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySlider fader">
+	<div id="romancecontent">
+		<figure><img src="img/CA1.jpg"><figcaption><p><b>Cecelia Ahern<br>"One Handred Names"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+     	</div>	 
+     	</div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+    <div id="romancecontent">
+		<figure><img src="img/CA2.jpg"><figcaption><p><b>Cecelia Ahern<br>"P.S I love you"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>
+     	</div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/CA3.jpg"><figcaption><p><b>Cecelia Ahern<br>"Girl in the Mirror"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+    	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>		
+	    </div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/CA4.jpg"><figcaption><p><b>Cecelia Ahern<br>"Lyrebird"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+       </div>
+
+
+    <div class="mySlider fader">
+    <div id="romancecontent">
+		<figure><img src="img/VH1.jpg"><figcaption><p><b>Victor Hugo<br>"Miserables"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+  	    </div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+    <div id="romancecontent">
+		<figure><img src="img/VH2.jpg"><figcaption><p><b>Victor Hugo<br>"To love is to Act"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+    	</div>		
+	    </div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/VH3.jpg"><figcaption><p><b>Victor Hugo<br>"Ninety-Three"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+     	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+    	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/VH4.jpg"><figcaption><p><b>Victor Hugo<br>"The man who Laughs"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySlider fader">
+    <div id="romancecontent">
+		<figure><img src="img/NS1.jpg"><figcaption><p><b>Nicholas Sparks<br>"The Return"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+    	</div>		
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+    	</div>
+
+    <div id="romancecontent">
+		<figure><img src="img/NS2.jpg"><figcaption><p><b>Nicholas Sparks<br>"Let in snow"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+     	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+	    </div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/NS3.jpg"><figcaption><p><b>Nicholas Sparks<br>"Looking for Alaska"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+    	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+	    </div>
+
+    <div id="romancecontent">
+		<figure><img src="img/NS4.jpg"><figcaption><p><b>Nicholas Sparks<br>"Notebook"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySlider fader">
+	<div id="romancecontent">
+		<figure><img src="img/JG1.jpg"><figcaption><p><b>John Green<br>"An Abundance"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form>
+    	</div>	
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+	    </div>
+
+    <div id="romancecontent">
+		<figure><img src="img/JG2.png"><figcaption><p><b>John Green<br>"Fault in our stars"</b></p>
+		<br>
+        <div class="rat1">
+     	<div class="stars1">
+  		<form action="">
+  		<input type="radio" class="star1 star-5" name="star1" id="star1-5">
+  		<label for="star1-5" class="star1 star1-5"></label>
+
+  		<input type="radio" class="star1 star1-4" name="star1" id="star1-4">
+  		<label for="star1-4" class="star1 star1-4"></label>
+
+  		<input type="radio" class="star1 star1-3" name="star1" id="star1-3">
+  		<label for="star1-3" class="star1 star1-3"></label>
+
+  		<input type="radio" class="star1 star1-2" name="star1" id="star1-2">
+  		<label for="star1-2" class="star1 star1-2"></label>
+
+  		<input type="radio" class="star1 star1-1" name="star1" id="star1-1">
+  		<label for="star1-1" class="star1 star1-1"></label></form>
+  	    </div>
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+     	</div>
+
+    <div id="romancecontent">
+		<figure><img src="img/JG3.jpg"><figcaption><p><b>John Green<br>"Jude the Obscure"</b></p>
+		<br>
+        <div class="rat2">
+     	<div class="stars2">
+  		<form action="">
+  		<input type="radio" class="star2 star2-5" name="star2" id="star2-5">
+  		<label for="star2-5" class="star2 star2-5"></label>
+
+  		<input type="radio" class="star2 star2-4" name="star2" id="star2-4">
+  		<label for="star2-4" class="star2 star2-4"></label>
+
+  		<input type="radio" class="star2 star2-3" name="star2" id="star2-3">
+  		<label for="star2-3" class="star2 star2-3"></label>
+
+  		<input type="radio" class="star2 star2-2" name="star2" id="star2-2">
+  		<label for="star2-2" class="star2 star2-2"></label>
+
+  		<input type="radio" class="star2 star2-1" name="star2" id="star2-1">
+  		<label for="star2-1" class="star2 star2-1"></label></form>
+  	    </div>
+	    </div>
+	    <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure>
+    	</div>
+
+
+    <div id="romancecontent">
+		<figure><img src="img/JG4.jpg"><figcaption><p><b>John Green<br>"Poems"</b></p>
+		<br>
+        <div class="rat3">
+     	<div class="stars3">
+  		<form action="">
+  		<input type="radio" class="star3 star3-5" name="star3" id="star3-5">
+  		<label for="star3-5" class="star3 star3-5"></label>
+
+  		<input type="radio" class="star3 star3-4" name="star3" id="star3-4">
+  		<label for="star3-4" class="star3 star3-4"></label>
+
+  		<input type="radio" class="star3 star3-3" name="star3" id="star3-3">
+  		<label for="star3-3" class="star3 star3-3"></label>
+
+  		<input type="radio" class="star3 star3-2" name="star3" id="star3-2">
+  		<label for="star3-2" class="star3 star3-2"></label>
+
+  		<input type="radio" class="star3 star3-1" name="star3" id="star3-1">
+  		<label for="star3-1" class="star3 star3-1"></label></form></div></div>
+        <br>  
+        <a href="BooksIndex/mebeforeyou.html">Read here</a></figcaption></figure></div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="doters" onclick="currentSlider(1)"></span> 
+        <span class="doters" onclick="currentSlider(2)"></span> 
+        <span class="doters" onclick="currentSlider(3)"></span>
+        <span class="doters" onclick="currentSlider(4)"></span> 
+        <span class="doters" onclick="currentSlider(5)"></span> 
+        <span class="doters" onclick="currentSlider(6)"></span>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="author">
+		<h4>Authors</h4>
+		<p><a onclick="Sliderkids(1)" id="authors">Judy Blume</a></p>
+	    <p><a onclick="Sliderkids(2)" id="authors">Eric Carle</a></p>
+	    <p><a onclick="Sliderkids(3)" id="authors">Yangsook Choi</a></p>
+	    <p><a onclick="Sliderkids(4)" id="authors">Beverly Cleary</a></p>
+        <p><a onclick="Sliderkids(5)" id="authors">Roald Dahl</a></p>
+	</div>
+
+	<div id="kids" class="content">
+        <h1>Kids</h1>
+        <div class="sliderhow-container">	
+    	<div class="mySliderkids faderkids">
+
+	    <div id="kidscontent">
+		<figure><img src="img/JB1.jpg"><figcaption><p><b>Judy Blume<br>"Cool zone"</b></p>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/JB2.jpg"><figcaption><p><b>Judy Blume<br>"Fudge a Mania"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/JB3.jpg"><figcaption><p><b>Judy Blume<br>"Superfudge"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+    <div id="kidscontent">
+		<figure><img src="img/JB4.jpg"><figcaption><p><b>Judy Blume<br>"Forever"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+        </div>
+
+
+   <div class="mySliderkids faderkids">
+        <div id="kidscontent">
+		<figure><img src="img/EC1.jpg"><figcaption><p><b>Eric Carle<br>"The Tiny Seed"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/EC2.jpg"><figcaption><p><b>Eric Carle<br>"Draw me a Star"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+    <div id="kidscontent">
+		<figure><img src="img/EC3.jpg"><figcaption><p><b>Eric Carle<br>"The Foolish Tortoise"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+    <div id="kidscontent">
+		<figure><img src="img/EC4.jpg"><figcaption><p><b>Eric Carle<br>"Rooster's"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  	    <input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+        </div>
+
+
+    <div class="mySliderkids faderkids">
+	    <div id="kidscontent">
+		<figure><img src="img/YC1.png"><figcaption><p><b>Yangsook Choi<br>"New Cat"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="">Read here</a></figcaption></figure></div>
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/YC2.jpg"><figcaption><p><b>Yangsook Choi<br>"The Key Collection"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/YC3.jpg"><figcaption><p><b>Yangsook Choi<br>"The name Jar"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+    <div id="kidscontent">
+		<figure><img src="img/YC4.jpg"><figcaption><p><b>Yangsook Choi<br>"Peach Hearen"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+        </div>
+
+
+
+    <div class="mySliderkids faderkids">
+	    <div id="kidscontent">
+		<figure><img src="img/BC1.jpg"><figcaption><p><b>Beverly Cleary<br>"Ramona"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/BC2.jpg"><figcaption><p><b>Beverly Cleary<br>"Runaway Ralph"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/BC3.jpg"><figcaption><p><b>Beverly Cleary<br>"Henry and Ribsy"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+    <div id="kidscontent">
+		<figure><img src="img/BC4.jpg"><figcaption><p><b>Beverly Cleary<br>"Ribsy"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+        </div>
+
+    <div class="mySliderkids faderkids">
+	    <div id="kidscontent">
+		<figure><img src="img/RD1.jpg"><figcaption><p><b>Roald Dahl<br>"The BFG"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/RD2.jpg"><figcaption><p><b>Roald Dahl<br>"Madilda"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+
+  		 <input type="radio" class="star star-4" name="star" id="star-4">
+  		 <label for="star-4" class="star star-4"></label>
+
+  		 <input type="radio" class="star star-3" name="star" id="star-3">
+  		 <label for="star-3" class="star star-3"></label>
+
+  		 <input type="radio" class="star star-2" name="star" id="star-2">
+  		 <label for="star-2" class="star star-2"></label>
+
+  		 <input type="radio" class="star star-1" name="star" id="star-1">
+  		 <label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+
+
+    <div id="kidscontent">
+		<figure><img src="img/RD3.jpg"><figcaption><p><b>Roald Dahl<br>"The Witches"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+
+
+    <div id="kidscontent">
+		<figure><img src="img/RD4.jpg"><figcaption><p><b>Roald Dahl<br>"Matilda"</b></p>
+		<br>
+        <div class="rat">
+     	<div class="stars">
+  		<form action="">
+  		<input type="radio" class="star star-5" name="star" id="star-5">
+  		<label for="star-5" class="star star-5"></label>
+
+  		<input type="radio" class="star star-4" name="star" id="star-4">
+  		<label for="star-4" class="star star-4"></label>
+
+  		<input type="radio" class="star star-3" name="star" id="star-3">
+  		<label for="star-3" class="star star-3"></label>
+
+  		<input type="radio" class="star star-2" name="star" id="star-2">
+  		<label for="star-2" class="star star-2"></label>
+
+  		<input type="radio" class="star star-1" name="star" id="star-1">
+  		<label for="star-1" class="star star-1"></label></form></div></div>
+	    <br>  
+        <a href="BooksIndex/FudgeAMania.html">Read here</a></figcaption></figure></div>
+        </div>
+        </div>
+
+    <br>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dotersk" onclick="Sliderkids(1)"></span> 
+        <span class="dotersk" onclick="Sliderkids(2)"></span> 
+        <span class="dotersk" onclick="Sliderkids(3)"></span>
+        <span class="dotersk" onclick="Sliderkids(4)"></span> 
+        <span class="dotersk" onclick="Sliderkids(5)"></span> 
+    </div> 	
+	</div>
+
+    
+
+
+<footer>
+    <div class="footer">
+      <div class="cover"></div>
+      <h2>Find <span>Read</span></h2>
+      <span class="done">&copy; OnlineLibrary |<i> by Erbol & Erasyl</i></span>
+    </div>
+    
+      <div class="footerline">
+      <div id="map">
+ 					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d2aa84dbc54c236c5f6603859a01dd0f92e790619150d2580fcde0d69c5f1e9&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+      </div>
+
+
+        <div class="Contacts">
+          <div class="socialnetworks"><h4>Follow us:</h4>
+           <br>
+          <a href="https://wa.me/87002780306"><img src="img/whatsapp.svg"></a>
+          <a href="https://www.youtube.com/watch?v=0E3pgWN7Igs"><img src="img/youtube.svg"></a>
+          <a href="https://t.me/joinchat/AAAAAEq9apgM_zgeoLVkkw"><img src="img/telegram.svg"></a>
+          <a href="https://instagram.com/bernahov.e?utm_medium=copy_link"><img src="img/instagram.svg"></a>
+
+          </div>
+          <div class="number"><h4>Contacts:</h4><br><h6>Number: 8 700 278 03 06<br>E-mail: it1-2012@gmail.com </h6></div>
+           
+
+          </div>
+          </div>
+          </footer>
+          </div>
+
+
+          <!-- SECOND PAGE -->
+
+
+    <div class="loginPage none">
+    	<div class="log-video">
+        <img src="img/fairy-tale-1077863.jpg" class="log-video">
+    </div>
+  
+    <div class="logForm">
+      <form>
+        <h1>LOGIN</h1>
+        
+        <div class="regInputBox">
+          <label for="logEmail" class="regLabel" id="logEmailLabel">E-mail:</label>
+          <input type="text" id="logEmail" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="logPassword" class="regLabel" id="logPasswordLabel">Password:</label>
+          <input type="password" id="logPassword" class="regInput">
+        </div>
+
+     
+      <div class="regBtn">
+          <button id="BtnLog">Login</button>
+        </div>
+        <div class="bottomLog">
+          <div class="logLinks">
+            <a href="#" id="forgot">I forgot password</a>
+            <a href="#" id="dontAccount">I do not have an account</a>
+          </div>
+          <button id="BtnCancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <div class="forgotForm none">
+      <form>
+        <h1>Answer the question</h1>
+
+        <div class="regInputBox">
+          <label for="forgotEmail" class="regLabel" id="forgotEmailLabel">Write your e-mail:</label>
+          <input type="text" id="forgotEmail" class="regInput">
+        </div>
+
+        <div class="forgotQuestion">
+          <h3 id="question"></h3>
+          <input type="text" class="answer">
+        </div>
+        
+        <div class="forgotBtn">
+          <button id="okBtn">OK</button>
+          <button id="answerBtn" class="none">Answer</button>
+        </div>
+
+      </form>
+      </div>
+</div>
+
+    
+  
+  <div class="registerPage none">
+  	
+    <div class="backCondition">
+    	<div class="regImg"></div>
+      <form>
+        <h1>Register</h1>
+
+        <div class="regInputBox">
+          <label for="name" class="regLabel" id="nameLabel">Name:</label>
+          <input type="text" id="name" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="surname" class="regLabel" id="surnameLabel">Surname:</label>
+          <input type="text" id="surname" class="regInput">
+        </div>
+        
+        <div id="genderBox">
+          <p id="genderP">Gender:</p>
+
+          <input type="radio" name="gender" value="male" id="male" class="gender">
+          <label for="male" id="maleLabel">Male</label>
+
+          <input type="radio" name="gender" value="female" id="famale" class="gender">
+          <label for="famale" id="famaleLabel">Female</label>
+        </div>
+
+        <div class="regInputBox">
+          <label for="email" class="regLabel" id="emailLabel">E-mail:</label>
+          <input type="text" id="email" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="password" class="regLabel" id="passwordLabel">Password:</label>
+          <input type="password" id="password" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="RePassword" class="regLabel" id="RePasswordLabel">Re-type Password:</label>
+          <input type="password" id="RePassword" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="secQuestion" class="regLabel">Security Question:</label>
+          <input type="text" id="secQuestion" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="secAnswer" class="regLabel">Security Answer:</label>
+          <input type="text" id="secAnswer" class="regInput">
+        </div>
+
+        <div class="regInputBox">
+          <label for="phone" class="regLabel" id="phoneLabel">Phone Number:</label>
+          <input type="number" id="phone" class="regInput">
+        </div>
+
+        <div class="conditionBox">
+          <input type="checkbox" id="condition">
+          <label for="condition">I agree to the <span id="condLink">condition of this site</span></label>
+          <p class="requiredP none">- required</p>
+        </div>
+        
+        <div class="regBtn">
+          <button id="BtnReg">Register</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="conditionListBox" class="none">
+      <div id="condition_header">
+        User agreement
+      </div>
+      <div id="condition_content">
+        <h3>Terms of Use for the FindRead Website</h3>
+        <p>Welcome to the <b>FindRead</b> website. This is an online library with many different books and they are all available at any time. Here you can not only read your books but can also exchange books with other people. In order to use our site, register and follow our rules and everything in your life will be fine:</p>
+        <p>1)Respect other participants, do not swear and behave appropriately.</p>
+        <p>2)Not allowed spam in a post and you can’t put your ads on the site.</p>
+        <p>3)Attempting to hack into site or another member’s profile is also punishable.</p>
+        <p>4)Finally read for your pleasure.</p>
+        <p>If a user tries to violate these rules, then his account may be blocked forever. If something is not clear, we are always in touch. And read again in contentment.</p>
+        <button id="OK">OK</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- ADMIN PANEL -->
+
+
+<div class="adminPage none">
+    <div class="adminAdd">
+      <div class="addHeader">Add a new user</div>
+      <div>
+        <div class="addInputBox">
+          <label for="addName">Name</label>
+          <input type="text" id="addName" class="addInput">
+        </div>
+
+        <div class="addInputBox">
+          <label for="addSurname">Surname</label>
+          <input type="text" id="addSurname" class="addInput">
+        </div>
+          
+       
+      </div>
+
+      <div>
+        <div class="addInputBox">
+          <label for="addEmail">Email</label>
+          <input type="text" id="addEmail" class="addInput">
+        </div>
+
+        <div class="addInputBox">
+          <label for="addPassword">Password</label>
+          <input type="password" id="addPassword" class="addInput">
+        </div>
+
+        <div class="addInputBox">
+          <label for="addPhone">Phone:</label>
+          <input type="number" id="addPhone" class="addInput">
+        </div>
+
+        <button class="addBtn"><a href="#" id="addBtnLink">Add Account</a></button>
+      </div>
+    </div>
+    <div class="adminPanel">
+      <h2>Account List</h2>
+      <div class="flex">
+        <div class="adminContent"></div>
+        <div class="adminButtons">
+          <button class="adminBtn delete"><a href="#" id="deleteBtn">Delete</a></button>
+          <button class="adminBtn disable"><a href="#" id="disableBtn">Disable</a></button>
+          <button class="adminBtn enable"><a href="#" id="enableBtn">Enable</a></button>
+        </div>
+      </div>
+      <button class="closePanel"><a href="">Close</a></button>
+    </div>
+  </div>
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="img/loader-img.gif" alt="">
+</div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC71Wk-uX1vje2AwHIG5GauZD5eYn1C1dA&callback=initMap" async defer></script>
+	<script src="JS/jQuery.js"></script>
+	<script src="JS/script.js"></script>
+	
+
+</body>
+</html>
