@@ -1,0 +1,767 @@
+*{
+	text-decoration: none;
+}
+body{
+	background-color: white;
+}
+
+#back{
+	background-image: url("../img/RameoB.jpg");
+	height: 400px; 
+	background-color: #ffcc99;
+	background-blend-mode: multiply;
+	background-size: cover;
+
+}
+
+#back img{
+ margin-top: 50px;
+ margin-left: 70px;
+ cursor: pointer;
+ float: left;
+ width: 350px;
+ height: 550px;
+ transition: 0.3s;
+}
+
+#back img:hover{
+	transform: scale(1.2, 1.2);
+}
+#Rameo{
+	font-family: Comic Sans MS;
+	color: #b30000;
+	margin-right: 650px;
+	margin-top: 90px;
+	float: right;
+    background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	border: 2px solid #b30000;
+	margin-left: 113px;
+
+}
+
+
+#Juliet{
+	font-family: Comic Sans MS;
+	color: #b30000;
+	margin-right: 50px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	padding-top: 10px;
+	text-align: center;
+	height: 320px;
+	width: 520px;
+	border: 2px solid #b30000;
+	margin-top: -360px;
+
+}
+
+#RJcontent{
+	display: flex;
+}
+
+#RJannotation{
+	font-family: Comic Sans MS;
+	color: #b30000;
+	margin-right: 650px;
+	margin-top: 20px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	height: 350px;
+	width: 300px;
+	transition: 0.4s;
+	border: 2px solid #b30000;
+}
+
+#RJannotation:hover{
+	transform: scale(1.5, 1.5);
+
+}
+#button{
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px;
+	display: flex;
+
+}
+#button button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #b30000;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+#button a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #b30000;
+}
+
+#list{
+	background-color: white;
+	height: 80px;
+}
+
+#homepage{
+	float: right;
+	margin-right: 70px;
+	margin-left: 700px;
+
+}
+#homepage button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #b30000;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+
+#homepage a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #b30000;
+}
+
+#chat {
+	float: left;
+	margin-left: 70px;
+	margin-top: -30px;
+
+}
+#chat button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #b30000;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+}
+
+#chat a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #b30000;
+
+}
+
+
+
+/*Me before you*/
+
+#mebeforeyou{
+
+	background-image: url("../img/Mebeforeyou.png");
+	background-size: contain;
+	height: 400px; 
+	background-color: #bedac7;
+	background-blend-mode: multiply;
+
+}
+#mebeforeyou img{
+ margin-top: 50px;
+ margin-left: 70px;
+ cursor: pointer;
+ float: left;
+ width: 350px;
+ height: 550px;
+ transition: 0.3s;
+ border: 1px solid #006400;
+}
+
+#mebeforeyou img:hover{
+	transform: scale(1.2, 1.2);
+}
+
+
+#jojo{
+	font-family: Comic Sans MS;
+	color: #006400;
+	margin-right: 650px;
+	margin-top: 100px;
+	float: right;
+    background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	border: 2px solid #006400;
+	margin-left: 50px;
+	width: 350px;
+
+}
+
+
+#Moyes{
+	font-family: Comic Sans MS;
+	color: #006400;
+	margin-right: 50px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	padding-top: 10px;
+	text-align: center;
+	height: 320px;
+	width: 520px;
+	border: 2px solid #006400;
+	margin-top: -360px;
+
+}
+
+
+
+#JMannotation{
+	font-family: Comic Sans MS;
+	color: #006400;
+	margin-right: 650px;
+	margin-top: 20px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	height: 400px;
+	width: 350px;
+	transition: 0.4s;
+	border: 2px solid #006400;
+}
+
+#JMannotation:hover{
+	transform: scale(1.5, 1.5);
+
+}
+#click{
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px;
+	display: flex;
+
+}
+#click button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #006400;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+#click a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #006400;}
+
+#list{
+	background-color: white;
+	height: 80px;
+}
+
+#homepage2{
+	float: right;
+	margin-right: 70px;
+	margin-left: 700px;
+
+}
+#homepage2 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #006400;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+
+#homepage2 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #006400;
+}
+
+
+
+#chat2 {
+	float: left;
+	margin-left: 70px;
+	margin-top: -30px;
+
+}
+#chat2 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid  #006400;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+}
+
+#chat2 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #006400;
+
+}
+
+
+/*Around the world in 80 days*/
+
+
+#aroundtheworld{
+
+	background-image: url("../img/aroundtheworld.jpg");
+	background-size: contain;
+	height: 400px; 
+	background-color: #ffb366;
+	background-blend-mode: multiply;
+
+}
+#aroundtheworld img{
+ margin-top: 50px;
+ margin-left: 70px;
+ cursor: pointer;
+ float: left;
+ width: 350px;
+ height: 550px;
+ transition: 0.3s;
+ border: 1px solid #8B4513;
+}
+
+#aroundtheworld img:hover{
+	transform: scale(1.2, 1.2);
+}
+
+
+#jules{
+	font-family: Comic Sans MS;
+	color: #8B4513;
+	margin-right: 650px;
+	margin-top: 100px;
+	float: right;
+    background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	border: 2px solid #8B4513;
+	margin-left: 50px;
+	width: 350px;
+
+}
+
+
+#Verne{
+	font-family: Comic Sans MS;
+	color:#8B4513;
+	margin-right: 50px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	padding-top: 10px;
+	text-align: center;
+	height: 320px;
+	width: 520px;
+	border: 2px solid #8B4513;
+	margin-top: -390px;
+
+}
+
+
+
+#JVannotation{
+	font-family: Comic Sans MS;
+	color: #8B4513;
+	margin-right: 650px;
+	margin-top: 20px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	height: 400px;
+	width: 350px;
+	transition: 0.4s;
+	border: 2px solid #8B4513;
+}
+
+#JVannotation:hover{
+	transform: scale(1.5, 1.5);
+
+}
+#submit{
+	float: left;
+	margin-left: 70px;
+	margin-top: 30px;
+	display: flex;
+
+}
+#submit button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #8B4513;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+#submit a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #8B4513;}
+
+#list{
+	background-color: white;
+	height: 80px;
+}
+
+#homepage3{
+	float: right;
+	margin-right: 70px;
+	margin-left: 700px;
+
+}
+#homepage3 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #8B4513;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+
+}
+
+#homepage3 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #8B4513;
+}
+
+#chat3 {
+	float: left;
+	margin-left: 70px;
+	margin-top: -30px;
+
+}
+#chat3 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid  #8B4513;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+}
+
+#chat3 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #8B4513;
+
+}
+
+
+
+/*Fudge A Mania*/
+
+
+#fudgeamania{
+
+	background-image: url("../img/fudgemania.png");
+	background-size: contain;
+	height: 400px; 
+	background-color:  #ffffb3;
+	background-blend-mode: multiply;
+
+}
+#fudgeamania img{
+ margin-top: 50px;
+ margin-left: 70px;
+ cursor: pointer;
+ float: left;
+ width: 350px;
+ height: 550px;
+ transition: 0.3s;
+ border: 1px solid #00BFFF;
+}
+
+#fudgeamania img:hover{
+	transform: scale(1.2, 1.2);
+}
+
+
+#judy{
+	font-family: Comic Sans MS;
+	color: #228B22;
+	margin-right: 650px;
+	margin-top: 100px;
+	float: right;
+    background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	border: 2px solid #00BFFF;
+	margin-left: 50px;
+	width: 350px;
+
+}
+
+
+#Blume{
+	font-family: Comic Sans MS;
+	color: #228B22;
+	margin-right: 50px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	padding-top: 10px;
+	text-align: center;
+	height: 320px;
+	width: 520px;
+	border: 2px solid #00BFFF;
+	margin-top: -390px;
+
+}
+
+
+
+#JBannotation{
+	font-family: Comic Sans MS;
+	color: #228B22;
+	margin-right: 650px;
+	margin-top: 20px;
+	float: right;
+	background-color:  #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	height: 400px;
+	width: 350px;
+	transition: 0.4s;
+	border: 2px solid #00BFFF;
+}
+
+#JBannotation:hover{
+	transform: scale(1.5, 1.5);
+
+}
+#submit2{
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px;
+	display: flex;
+
+}
+#submit2 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #00BFFF;
+	background-color:  #FFF5EE;
+	border-radius: 20px;
+
+}
+#submit2 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color:  #228B22;}
+
+#list{
+	background-color: white;
+	height: 80px;
+}
+
+#homepage4{
+	float: right;
+	margin-right: 70px;
+	margin-left: 700px;
+
+}
+#homepage4 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #00BFFF;
+	background-color:  #FFF5EE;
+	border-radius: 20px;
+
+}
+
+#homepage4 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color:  #228B22;
+}
+
+
+#chat4 {
+	float: left;
+	margin-left: 70px;
+	margin-top: -30px;
+
+}
+#chat4 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid  #00BFFF;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+}
+
+#chat4 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: #228B22;
+
+}
+
+/*LIFE with out Limits*/
+
+#Lifewithoutlimits{
+
+	background-image: url("../img/Lifewithoutlimits.jpg");
+	background-size: contain;
+	height: 400px; 
+	background-color: #FAF0E6;
+	background-blend-mode: multiply;
+
+}
+#Lifewithoutlimits img{
+ margin-top: 50px;
+ margin-left: 70px;
+ cursor: pointer;
+ float: left;
+ width: 350px;
+ height: 550px;
+ transition: 0.3s;
+ border: 1px solid #808080;
+}
+
+#Lifewithoutlimits img:hover{
+	transform: scale(1.2, 1.2);
+}
+
+
+#nick{
+	font-family: Comic Sans MS;
+	color:  black;
+	margin-right: 650px;
+	margin-top: 100px;
+	float: right;
+    background-color: #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	border: 2px solid  #808080;
+	margin-left: 50px;
+	width: 350px;
+
+}
+
+
+#Vujicic{
+	font-family: Comic Sans MS;
+	color:  black;
+	margin-right: 50px;
+	float: right;
+	background-color: #FFF5EE;
+	padding: 15px;
+	padding-top: 10px;
+	text-align: center;
+	height: 320px;
+	width: 520px;
+	border: 2px solid #808080;
+	margin-top: -390px;
+
+}
+
+
+
+#NVannotation{
+	font-family: Comic Sans MS;
+	color:   black;
+	margin-right: 650px;
+	margin-top: 20px;
+	float: right;
+	background-color:  #FFF5EE;
+	padding: 15px;
+	opacity: 0.9;
+	text-align: center;
+	height: 400px;
+	width: 350px;
+	transition: 0.4s;
+	border: 2px solid  #808080;
+}
+
+#NVannotation:hover{
+	transform: scale(1.5, 1.5);
+
+}
+#submit3{
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px;
+	display: flex;
+
+}
+#submit3 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #808080;
+	background-color:  #FFF5EE;
+	border-radius: 20px;
+
+}
+#submit3 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color:   black;}
+
+#homepage5{
+	float: right;
+	margin-right: 70px;
+	margin-left: 700px;
+
+}
+#homepage5 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #808080;
+	background-color:  #FFF5EE;
+	border-radius: 20px;
+
+}
+
+#homepage5 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: black;}
+
+#chat5 {
+	float: left;
+	margin-left: 70px;
+	margin-top: -30px;
+
+}
+#chat5 button{
+	width: 350px;
+	height: 50px;
+	margin-bottom: 50px;
+	border: 2px solid  #808080;
+	background-color: #FFF5EE;
+	border-radius: 20px;
+}
+
+#chat5 a{
+	font-family: Comic Sans MS; 
+	font-size: 15px;
+	color: black;
+
+}
